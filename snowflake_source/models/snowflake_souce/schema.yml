@@ -1,0 +1,10 @@
+
+version: 2
+
+sources:
+  - name: snowflake_source__source
+    description: 'Source of project Snowflake Source'
+    database: demo_db
+    schema: demo_schema
+    tables:
+      - name: demo_table

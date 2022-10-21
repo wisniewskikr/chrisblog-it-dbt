@@ -1,0 +1,12 @@
+
+version: 2
+
+models:
+  - name: snowflake_test__model
+    description: "Model for project Snowflake Test"
+    columns:
+      - name: message
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null

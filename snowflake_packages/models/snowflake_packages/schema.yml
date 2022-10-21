@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: snowflake_packages__model
+    columns:
+      - name: message
+        tests:
+          - dbt_utils.not_accepted_values:
+              values: ['Hello World']
